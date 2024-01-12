@@ -1,0 +1,94 @@
+body{
+  background-color: #CBC3E3;
+}
+
+.upper{
+  display: flex;
+  justify-content:end;
+  align-items:start;
+}
+
+.border {
+  border: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #7F00FF;
+}
+
+.container{
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.left{ 
+  margin: 0px 0px 0px 450px;
+  border: 5px;
+  border-style: solid;
+}
+
+.right{
+  margin: 0px 0px 0px 40px;
+  display: flex;
+  flex-direction: column;
+  border: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  background-color: 	#7F00FF;
+  color: white;
+  border-color: 	#7F00FF;
+}
+
+.right label{
+  font-family:monospace;
+  font-size: 15px;
+}
+
+.right input {
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 270px;
+  height: 25px;
+  border-color: white;
+}
+
+#name {
+  margin: 0px 50px 0px 50px;
+}
+
+#namelabel{
+  margin: 40px 50px 10px 50px;
+}
+
+#maillabel{
+  margin: 20px 50px 10px 50px;
+}
+
+.right button{
+  margin: 0px 50px 30px 50px;
+  width: min-content;
+  padding: 8px 30px 8px 30px;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.square { 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50px;
+  height: 50px;
+  background-color: #7F00FF;
+  margin: 40px 50px 0px 0px;
+  border-radius: 5px;
+}
+
+.rectangle{
+  width: 35px;
+  height: 4px;
+  background-color: white;
+  margin-left: 7px;
+  border-radius: 5px;
+}
+
+
