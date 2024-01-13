@@ -1,5 +1,5 @@
 body{
-  background-color: #CBC3E3;
+  background-color: white;
 }
 
 .upper{
@@ -11,8 +11,9 @@ body{
 .border {
   border: 5px;
   border-style: solid;
-  border-radius: 5px;
+  border-radius: 20px;
   border-color: #7F00FF;
+  background-color:#CBC3E3;
 }
 
 .container{
@@ -41,18 +42,37 @@ body{
   border-color: 	#7F00FF;
 }
 
+.rightchild {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightchild2 {
+  display: flex;
+}
+
+.rightchild2 label {
+  padding: 0px;
+  margin: 0px;
+}
+
+
 .right label{
   font-family:monospace;
   font-size: 15px;
 }
 
 .right input {
-  border-radius: 5px;
+  border-radius: 7px;
   margin-left: 50px;
   margin-right: 50px;
   width: 270px;
   height: 25px;
   border-color: white;
+}
+
+.right textarea {
+  border-radius: 7px;
 }
 
 #name {
@@ -116,3 +136,10 @@ body{
   align-items: center;
 }
 
+.img2{
+    width: 30px;
+    height:30px;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
