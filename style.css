@@ -18,16 +18,19 @@ body{
 .container{
   display: flex;
   margin-bottom: 60px;
+  gap: 20px;
 }
 
 .left{ 
-  margin: 0px 0px 0px 450px;
+  margin: 0px 0px 0px 460px;
   border: 5px;
   border-style: solid;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .right{
-  margin: 0px 0px 0px 40px;
   display: flex;
   flex-direction: column;
   border: 5px;
@@ -67,7 +70,7 @@ body{
 .right button{
   margin: 0px 50px 30px 50px;
   width: min-content;
-  padding: 8px 30px 8px 30px;
+  padding: 9px 35px 9px 35px;
   border-radius: 5px;
   border-color: white;
 }
@@ -91,4 +94,25 @@ body{
   border-radius: 5px;
 }
 
+.leftsym {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  margin-left: 50px;
+  gap: 20px
+
+}
+
+.img{
+  width: 30px;
+  height:30px;
+  margin-right: 10px;
+
+}
+
+.imgfix{
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+}
 
