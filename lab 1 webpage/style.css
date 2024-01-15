@@ -1,0 +1,27 @@
+table {
+    border-collapse:collapse;
+  }
+  
+  table, th, td {
+    border: 1px dotted black;
+    padding: 30px 70px 30px 70px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .imgcon {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+.imgcon img {
+    width: 600px;
+    height: 350px;
+}
+  
