@@ -62,9 +62,8 @@ body{
 
 .right input {
   border-radius: 7px;
-  margin-left: 50px;
   margin-right: 50px;
-  width: 270px;
+  width: 240px;
   height: 25px;
   border-color: white;
 }
@@ -73,16 +72,12 @@ body{
   border-radius: 7px;
 }
 
-#name {
-  margin: 0px 50px 0px 50px;
-}
-
 #namelabel{
-  margin: 40px 50px 10px 50px;
+  margin: 40px 50px 10px 45px;
 }
 
 #maillabel{
-  margin: 20px 50px 10px 50px;
+  margin: 20px 50px 10px 45px;
 }
 
 .right button{
@@ -138,7 +133,8 @@ body{
 .img2{
     width: 30px;
     height:30px;
-    background-color: white;
+    background-color:#7F00FF;
     margin: 0px;
     padding: 0px;
+    margin-left: 40px;
 }
