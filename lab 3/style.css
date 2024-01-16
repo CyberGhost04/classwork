@@ -1,0 +1,23 @@
+body {
+    background-color:blanchedalmond;
+}
+
+.innerel {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+.innerel input {
+    border-radius: 5px;
+    height: 25px;
+    background-color: bisque;
+}
+
+.innerel textarea {
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: bisque;
+}

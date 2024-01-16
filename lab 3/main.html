@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <section style="margin: 0px 20px 10px 20px;">
+            <div class="container">
+                <h3 style="font-size: 45px; font-family:'Times New Roman', Times, serif;"><center>Leave Application Form</center></h3>
+            </div>
+        </section>
+        <section style="margin: 0px 20px 10px 20px;">
+            <div style="margin-left: 570px; margin-right: 570px;">
+                <div style="display: flex; flex-direction: column; gap: 30px; border: 5px; border-style: solid; padding: 30px 20px 35px 20px; border-radius: 20px; font-size: 17px; font-family:Georgia, 'Times New Roman', Times, serif; background-color:burlywood;">
+                    <div class="innerel">
+                        <label for="name">Enter Your Name</label>
+                        <input type="text" id="name" maxlength="20"/>
+                    </div>
+                    <div class="innerel">
+                        <label for="mail">Enter Your Email</label>
+                        <input type="email" id="mail"/>
+                    </div>
+                    <div class="innerel">
+                        <label for="enroll">Enter Your Enroll</label>
+                        <input type="number" id="enroll"/>
+                    </div>
+                    <div class="innerel">
+                        <label for="from">Leave From</label>
+                        <input type="date" id="from" min="2024-01-01" max="2024-12-31">
+                    </div>
+                    <div class="innerel">
+                        <label for="till">Leave Till</label>
+                        <input type="date" id="till" min="2024-01-01" max="2024-12-31">
+                    </div>
+                    <div class="innerel">
+                        <label for="tarea">Reason For Leave</label>
+                        <textarea id="tarea" rows="10"></textarea>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+</body>
+</html>
