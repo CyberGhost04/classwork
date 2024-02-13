@@ -1,0 +1,57 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-image: url('macos-monterey-stock-blue-light-layers-5k-2560x1440-5898.jpg');
+    }
+    .container{
+        display: flex;
+    }
+
+    .left{
+        width: 60vw;
+        position: relative;
+    }
+    .left img{
+        position: absolute;
+        right: 400px;
+        border-radius: 50%;
+        width: 400px;
+        height: 400px;
+        top: 170px;
+    }
+    .right{
+        width: 40vh;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .right input{
+        border-radius: 10px;
+        width: 300px;
+        height: 30px;
+        margin-top: 30px;
+    }
+
+    .dname{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dregis{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #entbtn{
+        margin-top: 30px;
+        margin-left: 110px;
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+    }
+
