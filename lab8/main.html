@@ -11,7 +11,9 @@
 <body>
 
     <div class="container">
-        <div class="left"></div>
+        <div class="left">
+            <img src="893cf8b3bec7747ec6f456dbee5792dd.jpg" alt="" style="border-radius: 20px;">
+        </div>
         <div class="right">
             <div class="form">
                 <h2>Login Form</h2>
@@ -38,14 +40,14 @@
             var username = document.getElementById("username").value;
             var password = document.getElementById("password").value;
 
-            if (username.trim() == "" || username.trim() != '0') {
+            if (username.trim() == "" || username.trim() != 'retr0') {
                 document.getElementById("username").setAttribute("style", "border-color: red; border-width: 2px")
                 setTimeout(() => {
                     alert("Login Failed: Wrong Username");
                 }, 3);
                 return false;
             }
-            if (password.trim() == "" || password.trim() != '0') {
+            if (password.trim() == "" || password.trim() != 'retr0') {
                 document.getElementById("password").setAttribute("style", "border-color: red; border-width: 2px")
                 setTimeout(() => {
                     alert("Login Failed: Wrong Password");
