@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="left"></div>
+        <div class="right">
+            <div class="form">
+                <h2>Login Form</h2>
+                <form id="loginForm" onsubmit="return validateForm()">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter username">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter password">
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        async function setcorrect() {
+            document.getElementById("username").setAttribute("style", "border-color: green; border-width: 2px")
+            document.getElementById("password").setAttribute("style", "border-color: green; border-width: 2px")
+
+        }
+
+        async function validateForm() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            if (username.trim() == "" || username.trim() != '0') {
+                document.getElementById("username").setAttribute("style", "border-color: red; border-width: 2px")
+                setTimeout(() => {
+                    alert("Login Failed: Wrong Username");
+                }, 3);
+                return false;
+            }
+            if (password.trim() == "" || password.trim() != '0') {
+                document.getElementById("password").setAttribute("style", "border-color: red; border-width: 2px")
+                setTimeout(() => {
+                    alert("Login Failed: Wrong Password");
+                }, 3);
+                return false;
+            }
+            else {
+                await setcorrect()
+                setTimeout(() => {
+                    alert("Welcome Back retr0");
+                }, 3);
+                return true;
+            }
+        }
+    </script>
+
+</body>
+
+</html>

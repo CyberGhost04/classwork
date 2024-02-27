@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("HD-wallpaper-leaves-dark-plant-carved-bush.jpg");
+}
+
+.container {
+    display: flex;
+}
+
+.left{
+    width: 50vw;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 100vh;
+}
+
+.form{
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.form h2{
+    margin-bottom: 12px;
+}
+
+.form input{
+    width: 100%;
+    padding: 14px;
+    margin: 18px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 17px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
